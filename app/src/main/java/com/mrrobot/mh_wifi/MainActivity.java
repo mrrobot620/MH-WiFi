@@ -47,9 +47,9 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.progressBar).setVisibility(View.GONE);
 
         run();
-        getMac();
+//        getMac();
 
-
+// change this to add more sites in the app
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
