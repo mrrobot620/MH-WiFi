@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:hapticFeedbackEnabled="false"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="229dp"
+        android:layout_height="92dp"
+        android:layout_marginBottom="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/flipkart_logo_transparent_vector_3" />
+
+    <Button
+        android:id="@+id/wbtn"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="282dp"
+        android:layout_height="74dp"
+        android:hapticFeedbackEnabled="true"
+        android:stateListAnimator="@android:anim/linear_interpolator"
+        android:text="Connect Rigel"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:iconTint="#3F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.714" />
+
+    <ImageView
+        android:id="@+id/wifiImg"
+        android:layout_width="271dp"
+        android:layout_height="317dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.438"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/wifi_chargement_gratuit_png_vecteurs_35"
+        app:tint="#EC1F1F"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <Button
+        android:id="@+id/setting"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:layout_width="59dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="28dp"
+        android:hapticFeedbackEnabled="true"
+        android:stateListAnimator="@android:anim/accelerate_decelerate_interpolator"
+        app:icon="@drawable/icons8_settings_24"
+        app:iconTint="#000000"
+        app:iconTintMode="src_atop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="258dp"
+        android:layout_height="191dp"
+        android:indeterminate="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.382"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="121dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
