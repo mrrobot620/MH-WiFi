@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 if (intValue1 == 0) {
                     Toast.makeText(getApplicationContext(), "Please Select the Site First", Toast.LENGTH_SHORT).show();
                 } else if (intValue1 == 1) {
-                    rigelConnect("YAKUBPUR-MH-2", "e4?xoEX%l4");
+                    rigelConnect("YAKUBPUR-MH-2", "YKB-WiFi-Password");
                     Toast.makeText(getApplicationContext(), "Connecting to YKB Rigel Network in 5 seconds", Toast.LENGTH_SHORT).show();
                 } else if (intValue1 == 2) {
                     rigelConnect("Frk-Wifi-Identity", "Frk-WiFi-Password");
